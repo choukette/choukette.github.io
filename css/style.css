@@ -307,6 +307,11 @@
 					width: auto;
 				}
 
+		.rounded
+		{
+			border-radius: 100%;
+		}
+
 	/* Lists */
 
 		ul.style1
@@ -405,32 +410,38 @@
 				display: block;
 			}
 
-			form input.text,
+			form input,
 			form select,
 			form textarea
 			{
 				-webkit-appearance: none;
 				display: block;
-				border: 0;
-				background: #ccc;
+				border: 2px solid #eee;
+				background: #fff;
+				border-radius: 0.5em;
+				margin-left: 10px;
 				width: 100%;
+				padding: 0.1em 0.5em;
 			}
 
-				form input.text:hover,
+				form input:hover,
 				form select:hover,
 				form textarea:hover
 				{
+					border: 2px solid #FFC8C1;
 				}
 
-				form input.text:focus,
+				form input:focus,
 				form select:focus,
 				form textarea:focus
 				{
+					border: 2px solid #DF7366;
 				}
 
 				form textarea
 				{
 					min-height: 9em;
+					margin-bottom: 1em;
 				}
 
 				form .formerize-placeholder
@@ -1311,7 +1322,7 @@
 /* Banner                                                                        */
 /*********************************************************************************/
 
-	#banner
+	#creation
 	{
 		background: #fff;
 		text-align: center;
@@ -1365,11 +1376,11 @@
 /* Main                                                                          */
 /*********************************************************************************/
 
-	#main
+	#about
 	{
 	}
 
-		#main section:first-of-type
+		#about section:first-of-type
 		{
 			padding-top: 2em;
 		}
