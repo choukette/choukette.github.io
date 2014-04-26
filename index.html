@@ -159,34 +159,39 @@
 						<h2>J'en veux !</h2>
 						<span class="byline">Un évènement, une envie de gâteau insatiable ? N'hésitez pas à passer commande !</span>
 					</header>
-						<form action="#">
+						<form action="/" method="post">
 							<div class="row">
 								<div class="6u">
-									<label for="name">Nom</label>
+									<label for="name">Nom *</label>
 									<input type="text" name="name" id="" required>
 
-									<label for="surname">Prénom</label>
+									<label for="surname">Prénom *</label>
 									<input type="text" name="surname" id="" required>
 
-									<label for="email">Email</label>
+									<label for="email">Email *</label>
 									<input type="email" name="email" id="" required>
+
+									<label for="phone">Téléphone *</label>
+									<input type="tel" name="phone" pattern="^((\+\d{1,3}(-| )?\(?\d\)?(-| )?\d{1,5})|(\(?\d{2,6}\)?))(-| )?(\d{3,4})(-| )?(\d{4})(( x| ext)\d{1,5}){0,1}$" id="" required>
 								</div>
 
 								<div class="6u">
-									<label for="persons">Nombre de personnes</label>
+									<label for="persons">Nombre de personnes *</label>
 									<input type="number" name="persons" id="" required>
 
-									<label for="cake">Pâtisserie</label>
+									<label for="cake">Pâtisserie *</label>
 									<input type="text" name="cake" id="" required>
 
 									<label for="event">Évènement</label>
 									<input type="text" name="event" id="">
+
 								</div>
 							</div>
 								<label for="note">Message</label>
 								<textarea name="note" id=""></textarea>
 
 								<input type="submit" value="Envoyer" class="button">
+								<span>* Requis</span>
 						</form>
 				</section>
 
