@@ -286,7 +286,7 @@
 			{
 				display: block;
 				width: 100%;
-				margin: 0 0 4em 0;
+				margin: 0 0 2em 0;
 			}
 
 			.image.left
@@ -1332,7 +1332,7 @@
 	{
 		background: #fff;
 		text-align: center;
-		padding: 4.5em 0 4.5em 0;
+		padding: 2em 0 2em 0;
 	}
 
 /*********************************************************************************/
@@ -1462,7 +1462,7 @@
 	{
 		position: relative;
 		overflow: hidden;
-		padding: 2em 0 2em 0;
+		padding: 0 0 2em 0;
 	}
 
 		.carousel .forward,
@@ -1586,7 +1586,6 @@
 				top: 0;
 				width: auto;
 				margin-right: -2em;
-				margin-bottom: 3em;
 			}
 
 			.carousel article p
